@@ -5,10 +5,12 @@
 <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
+  <div class="card">
     <h1>What waste do you have?</h1>
     <form action="/result" method="POST">
         <input type="text" name="waste_item" placeholder="e.g. leftover rice">
         <input type="submit" value="Get Advice">
     </form>
+    </div>
 </body>
 </html>

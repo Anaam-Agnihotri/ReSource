@@ -1,26 +1,47 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    padding: 60px 20px;
+    margin: 0;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    padding: 40px;
+    max-width: 500px;
+    width: 100%;
     text-align: center;
-    padding: 50px;
 }
 
 h1 {
-    color: #2e7d32;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
 }
 
 input[type="text"] {
-    padding: 10px;
-    width: 250px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    padding: 12px;
+    width: 80%;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    font-size: 14px;
 }
 
 input[type="submit"] {
-    padding: 10px 20px;
-    background-color: #2e7d32;
+    padding: 12px 24px;
+    background-color: #4a7c59;
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
     cursor: pointer;
+    font-size: 14px;
+}
+
+input[type="submit"]:hover {
+    background-color: #3d6649;
 }
