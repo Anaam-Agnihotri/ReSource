@@ -9,7 +9,7 @@ def home():
 @app.route('/result', methods=['POST'])
 def result():
     waste_item = request.form['waste_item']
-    return f"You entered: {waste_item}"
+    return render_template('result.html',waste_item=waste_item)
 
 if __name__ == '__main__':
     app.run(debug=True)

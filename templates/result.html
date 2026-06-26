@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ReSource - Your Advice</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="card">
+        <h1>Here's what to do</h1>
+        <p>You entered: <strong>{{ waste_item }}</strong></p>
+        <a href="/">Try another item</a>
+    </div>
+</body>
+</html>

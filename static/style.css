@@ -45,3 +45,18 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: #3d6649;
 }
+
+a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #4a7c59;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+a:hover {
+    background-color: #3d6649;
+}
